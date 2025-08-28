@@ -17,6 +17,11 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>OpportunityLineItem.Level__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Project_Score_Tracker__c.Category__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -25,6 +30,9 @@
         <field>Project_Score_Tracker__c.Weighted_Score__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>OpportunityLineItem-Formato de productos de la oportunidad</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>Project_Score_Tracker__c-Project Score Tracker Layout</layout>
     </layoutAssignments>
@@ -103,6 +111,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>BulkMacrosAllowed</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CanApproveUninstalledApps</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
