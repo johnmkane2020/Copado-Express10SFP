@@ -32,9 +32,9 @@
         <locationX>0</locationX>
         <locationY>0</locationY>
         <inputAssignments>
-            <field>Status</field>
+            <field>Reason</field>
             <value>
-                <stringValue>New</stringValue>
+                <stringValue>New problem</stringValue>
             </value>
         </inputAssignments>
         <inputReference>$Record</inputReference>
