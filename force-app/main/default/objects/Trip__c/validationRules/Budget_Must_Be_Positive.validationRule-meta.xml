@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Budget_Must_Be_Positive</fullName>
+    <active>true</active>
+    <description>Budget must be a positive value</description>
+    <errorConditionFormula>NOT(ISNULL(Estimated_Budget__c)) &amp;&amp; Estimated_Budget__c &lt;= 0</errorConditionFormula>
+    <errorDisplayField>Estimated_Budget__c</errorDisplayField>
+    <errorMessage>Estimated budget must be a positive value.</errorMessage>
+</ValidationRule>
