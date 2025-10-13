@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reasonable_Birth_Date</fullName>
+    <active>true</active>
+    <description>Ensures date of birth is reasonable (not more than 120 years ago)</description>
+    <errorConditionFormula>Date_of_Birth__c &lt; (TODAY() - 43800)</errorConditionFormula>
+    <errorDisplayField>Date_of_Birth__c</errorDisplayField>
+    <errorMessage>Please enter a valid date of birth.</errorMessage>
+</ValidationRule>
