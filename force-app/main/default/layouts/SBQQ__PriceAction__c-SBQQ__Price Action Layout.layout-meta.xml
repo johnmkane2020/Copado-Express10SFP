@@ -27,6 +27,10 @@
                 <behavior>Edit</behavior>
                 <field>SBQQ__Formula__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Required</behavior>
+                <field>External_ID__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
