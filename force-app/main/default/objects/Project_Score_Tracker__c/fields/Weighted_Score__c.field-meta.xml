@@ -3,7 +3,7 @@
     <fullName>Weighted_Score__c</fullName>
     <externalId>false</externalId>
     <label>Weighted Score</label>
-    <precision>4</precision>
+    <precision>6</precision>
     <required>false</required>
     <scale>1</scale>
     <trackHistory>false</trackHistory>
