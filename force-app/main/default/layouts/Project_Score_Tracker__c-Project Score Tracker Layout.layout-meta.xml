@@ -25,9 +25,10 @@
                 <behavior>Edit</behavior>
                 <field>Weighted_Score__c</field>
             </layoutItems>
-                        <layoutItems>
+
+            <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Entity__c</field>
+                <field>Compliance_Related__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
