@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Project_Score_Tracker__c-Project Score Tracker Layout</fullName>
     <excludeButtons>OpenSlackRecordChannel</excludeButtons>
     <excludeButtons>Submit</excludeButtons>
     <layoutSections>
@@ -25,7 +24,10 @@
                 <behavior>Edit</behavior>
                 <field>Weighted_Score__c</field>
             </layoutItems>
-
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Entity__c</field>
+            </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Compliance_Related__c</field>
@@ -68,6 +70,13 @@
         <layoutColumns/>
         <style>CustomLinks</style>
     </layoutSections>
+    <relatedLists>
+        <fields>CASES.CASE_NUMBER</fields>
+        <fields>CASES.SUBJECT</fields>
+        <fields>CASES.CREATED_DATE</fields>
+        <fields>CASES.PRIORITY</fields>
+        <relatedList>Case.Project_Score_Tracker__c</relatedList>
+    </relatedLists>
     <relatedLists>
         <relatedList>RelatedEntityHistoryList</relatedList>
     </relatedLists>
