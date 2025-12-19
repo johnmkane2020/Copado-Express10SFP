@@ -5,7 +5,7 @@
     <externalId>false</externalId>
     <inlineHelpText>Enter the initial project score</inlineHelpText>
     <label>Score</label>
-    <precision>2</precision>
+    <precision>3</precision>
     <required>true</required>
     <scale>0</scale>
     <trackHistory>false</trackHistory>
