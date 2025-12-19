@@ -7,7 +7,6 @@
     <length>255</length>
     <required>true</required>
     <trackFeedHistory>false</trackFeedHistory>
-    <trackHistory>false</trackHistory>
     <type>Text</type>
     <unique>true</unique>
 </CustomField>
