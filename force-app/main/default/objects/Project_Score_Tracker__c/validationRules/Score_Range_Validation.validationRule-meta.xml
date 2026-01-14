@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Score_Range_Validation</fullName>
-    <active>true</active>
-    <description>Ensures that the Score field only accepts values between 0 and 100 (inclusive). This validation maintains data quality by preventing negative scores and scores exceeding the maximum allowed value.</description>
-    <errorConditionFormula>OR(Score__c &lt; 0, Score__c &gt; 100)</errorConditionFormula>
-    <errorDisplayField>Score__c</errorDisplayField>
-    <errorMessage>Score must be between 0 and 100.</errorMessage>
-</ValidationRule>
