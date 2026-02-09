@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Activity_Rating__c</fullName>
+    <label>Activity Rating</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Extremely Low</fullName>
+                <default>false</default>
+                <label>Extremely Low</label>
+            </value>
+            <value>
+                <fullName>Low</fullName>
+                <default>false</default>
+                <label>Low</label>
+            </value>
+            <value>
+                <fullName>Average</fullName>
+                <default>false</default>
+                <label>Average</label>
+            </value>
+            <value>
+                <fullName>Above Average</fullName>
+                <default>false</default>
+                <label>Above Average</label>
+            </value>
+            <value>
+                <fullName>High</fullName>
+                <default>false</default>
+                <label>High</label>
+            </value>
+            <value>
+                <fullName>Extremely High</fullName>
+                <default>false</default>
+                <label>Extremely High</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
