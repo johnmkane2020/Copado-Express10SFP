@@ -17,17 +17,7 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Account.Federal__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>Case.Federal__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Opportunity.Support_Status__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -46,16 +36,10 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>Account-Formato de cuentas</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Case-Formato de casos</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CaseClose-Formato de Cerrar caso</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Opportunity-Formato de oportunidades</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>OpportunityLineItem-Formato de productos de la oportunidad</layout>
