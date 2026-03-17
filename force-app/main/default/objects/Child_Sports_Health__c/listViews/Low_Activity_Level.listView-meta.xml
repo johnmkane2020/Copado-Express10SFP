@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Low_Activity_Level</fullName>
+    <columns>NAME</columns>
+    <columns>Parent_First_Name__c</columns>
+    <columns>Parent_Last_Name__c</columns>
+    <columns>Child_First_Name__c</columns>
+    <columns>Child_Last_Name__c</columns>
+    <columns>Sports__c</columns>
+    <columns>Activity_Rating__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Activity_Rating__c</field>
+        <operation>equals</operation>
+        <value>Extremely Low,Low</value>
+    </filters>
+    <label>Low Activity Level</label>
+</ListView>
