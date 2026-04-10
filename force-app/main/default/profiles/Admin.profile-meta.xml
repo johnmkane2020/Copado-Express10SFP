@@ -32,11 +32,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Opportunity.Support_Status__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>OpportunityLineItem.Level__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -61,9 +56,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Child_Sports_Health__c-Child Sports and Health Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Opportunity-Formato de oportunidades</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>OpportunityLineItem-Formato de productos de la oportunidad</layout>
