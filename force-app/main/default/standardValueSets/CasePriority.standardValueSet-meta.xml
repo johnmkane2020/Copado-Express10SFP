@@ -4,16 +4,16 @@
     <standardValue>
         <fullName>High</fullName>
         <default>false</default>
-        <label>Alta</label>
+        <label>High</label>
     </standardValue>
     <standardValue>
         <fullName>Medium</fullName>
         <default>true</default>
-        <label>Media</label>
+        <label>Medium</label>
     </standardValue>
     <standardValue>
         <fullName>Low</fullName>
         <default>false</default>
-        <label>Baja</label>
+        <label>Low</label>
     </standardValue>
 </StandardValueSet>

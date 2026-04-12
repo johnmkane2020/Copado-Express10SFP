@@ -3,9 +3,9 @@
     <fullName>Level__c</fullName>
     <externalId>false</externalId>
     <label>Level</label>
-    <precision>2</precision>
+    <precision>5</precision>
     <required>false</required>
-    <scale>0</scale>
+    <scale>2</scale>
     <type>Number</type>
     <unique>false</unique>
 </CustomField>
