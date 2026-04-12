@@ -4,31 +4,31 @@
     <standardValue>
         <fullName>User didn&apos;t attend training</fullName>
         <default>false</default>
-        <label>El usuario no asistió a la formación</label>
+        <label>User didn&apos;t attend training</label>
         <cssExposed>false</cssExposed>
     </standardValue>
     <standardValue>
         <fullName>Complex functionality</fullName>
         <default>false</default>
-        <label>Funcionalidad compleja</label>
+        <label>Complex functionality</label>
         <cssExposed>false</cssExposed>
     </standardValue>
     <standardValue>
         <fullName>Existing problem</fullName>
         <default>false</default>
-        <label>Problema existente</label>
+        <label>Existing problem</label>
         <cssExposed>false</cssExposed>
     </standardValue>
     <standardValue>
         <fullName>Instructions not clear</fullName>
         <default>false</default>
-        <label>Instrucciones poco claras</label>
+        <label>Instructions not clear</label>
         <cssExposed>false</cssExposed>
     </standardValue>
     <standardValue>
         <fullName>New problem</fullName>
         <default>false</default>
-        <label>Nuevo problema</label>
+        <label>New problem</label>
         <cssExposed>false</cssExposed>
     </standardValue>
 </StandardValueSet>
