@@ -2,10 +2,18 @@
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata"
       xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
     <applicationVisibilities>
-        <application>Child_Sports_Health_App</application>
+        <application>Project_Score_Tracker</application>
         <default>false</default>
-        <visible>true</visible>
+        <visible>false</visible>
     </applicationVisibilities>
+    <classAccesses>
+        <apexClass>ProjectScoreWeightedScoreHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>ProjectScoreWeightedScoreTriggerTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
@@ -23,10 +31,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>Child_Sports_Health__c-Child Sports and Health Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>OpportunityLineItem-Formato de productos de la oportunidad</layout>
+        <layout>Account-Formato de cuentas</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Project_Score_Tracker__c-Project Score Tracker Layout</layout>
@@ -55,6 +60,10 @@
         <object>Project_Score_Tracker__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <tabVisibilities>
+        <tab>Project_Score_Tracker__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
