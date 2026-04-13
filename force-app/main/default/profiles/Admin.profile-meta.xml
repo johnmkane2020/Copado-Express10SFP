@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata"
+      xmlns:n1="http://www.w3.org/2001/XMLSchema-instance">
     <applicationVisibilities>
         <application>Project_Score_Tracker</application>
         <default>false</default>
@@ -15,6 +16,11 @@
     </classAccesses>
     <custom>false</custom>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Federal__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Case.Child_Sports_Health__c</field>
         <readable>false</readable>
@@ -25,14 +31,34 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>Account.Federal__c</field>
-        <readable>true</readable>
+        <editable>false</editable>
+        <field>Mentor__c.Availability__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
-        <field>Case.Federal__c</field>
-        <readable>true</readable>
+        <editable>false</editable>
+        <field>Mentor__c.Bio__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Mentor__c.Expertise_Area__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Mentor__c.Is_Active__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Mentor__c.Max_Students__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Mentor__c.Phone__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -95,15 +121,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
-        <layout>Case-Formato de casos</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CaseClose-Formato de Cerrar caso</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Child_Sports_Health__c-Child Sports and Health Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Account-Formato de cuentas</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -117,6 +134,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Contact-Formato de contactos</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Mentor__c-Mentor Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Opportunity-Formato de oportunidades</layout>
@@ -136,6 +156,7 @@
     <layoutAssignments>
         <layout>SBQQ__PriceRule__c-SBQQ__Price Rule Layout</layout>
     </layoutAssignments>
+    <loginHours n1:nil="true" />
     <loginIpRanges>
         <description>All</description>
         <endAddress>255.255.255.255</endAddress>
@@ -148,6 +169,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Child_Sports_Health__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Mentor__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
