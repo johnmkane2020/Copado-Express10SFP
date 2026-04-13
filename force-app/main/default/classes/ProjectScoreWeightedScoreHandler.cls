@@ -1,8 +1,8 @@
 public class ProjectScoreWeightedScoreHandler {
-
+    
     // Flag to prevent recursive trigger execution
     private static Boolean isExecuting = false;
-
+    
     /**
      * Main method to handle the trigger logic
      * @param newRecords List of new Project Score Tracker records
@@ -12,16 +12,16 @@ public class ProjectScoreWeightedScoreHandler {
         if (isExecuting) {
             return;
         }
-
+        
         isExecuting = true;
-
+        
         try {
             for (Project_Score_Tracker__c record : newRecords) {
-                // Skip if Score is invalid (null, negative, or over 100)
-                if (!isValidScore(record.Score__c)) {
+                // Skip if Score is null
+                if (record.Score__c == null) {
                     continue;
                 }
-
+                
                 // Apply multiplier based on Category
                 if (record.Category__c == 'High') {
                     record.Weighted_Score__c = record.Score__c * 1.5;
@@ -37,14 +37,5 @@ public class ProjectScoreWeightedScoreHandler {
         } finally {
             isExecuting = false;
         }
-    }
-
-    /**
-     * Validates that a score is within the acceptable range
-     * @param score The score value to validate
-     * @return Boolean True if score is valid (not null, >= 0, and <= 100), false otherwise
-     */
-    public static Boolean isValidScore(Decimal score) {
-        return score != null && score >= 0 && score <= 100;
     }
 }
