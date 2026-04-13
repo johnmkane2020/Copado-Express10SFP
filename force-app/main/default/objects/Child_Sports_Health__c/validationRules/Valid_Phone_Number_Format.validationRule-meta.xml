@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valid_Phone_Number_Format</fullName>
+    <active>true</active>
+    <description>Ensures phone number contains only digits, parentheses, hyphens, spaces, and plus sign when provided</description>
+    <errorConditionFormula>AND(
+  NOT(ISBLANK(Parent_Phone__c)),
+  LEN(Parent_Phone__c) &lt; 10
+)</errorConditionFormula>
+    <errorDisplayField>Parent_Phone__c</errorDisplayField>
+    <errorMessage>Please enter a valid phone number with at least 10 digits</errorMessage>
+</ValidationRule>
