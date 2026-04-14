@@ -287,7 +287,7 @@
         <allowPause>false</allowPause>
         <fields>
             <name>displayConfirmation</name>
-            <fieldText>&lt;p&gt;&lt;strong style=&quot;color: rgb(45, 156, 45);&quot;&gt;✅ Student Registered Successfully!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;The student &lt;strong&gt;{!varFirstName} {!varLastName}&lt;/strong&gt; has been enrolled in the system.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;/lightning/r/Student__c/{!varNewStudentId}/view&quot;&gt;View Student Record&lt;/a&gt;&lt;/p&gt;</fieldText>
+            <fieldText>🎉 Student registration complete! The student record has been created and is now active in the mentorship system. You may use the link below to view or update the student&apos;s profile.</fieldText>
             <fieldType>DisplayText</fieldType>
             <styleProperties>
                 <verticalAlignment>
@@ -386,6 +386,7 @@
             <dataType>String</dataType>
             <fieldText>Email</fieldText>
             <fieldType>InputField</fieldType>
+            <helpText>Enter the student&apos;s primary email address. This must be unique across all student records in the system.</helpText>
             <isRequired>true</isRequired>
             <styleProperties>
                 <verticalAlignment>
