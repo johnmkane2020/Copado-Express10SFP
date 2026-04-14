@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>At_Least_One_Sport_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(
+  INCLUDES(Sports__c, &quot;Baseball&quot;) ||
+  INCLUDES(Sports__c, &quot;Football&quot;) ||
+  INCLUDES(Sports__c, &quot;Soccer&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>Sports__c</errorDisplayField>
+    <errorMessage>Please select at least one sport</errorMessage>
+</ValidationRule>
