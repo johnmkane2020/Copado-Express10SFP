@@ -8,6 +8,11 @@
     </applicationVisibilities>
     <custom>false</custom>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Test__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Mentor__c.Availability__c</field>
         <readable>false</readable>
@@ -82,6 +87,12 @@
         <field>Student__c.Progress_Score__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>Case-Formato de casos</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseClose-Formato de Cerrar caso</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>Child_Sports_Health__c-Child Sports and Health Layout</layout>
     </layoutAssignments>
