@@ -20,7 +20,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Federal__c</field>
+                <field>Test__c</field>
             </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
