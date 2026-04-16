@@ -12,6 +12,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Test__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Mentor__c.Availability__c</field>
         <readable>false</readable>
@@ -83,6 +88,12 @@
     </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Formato de cuentas</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Formato de casos</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CaseClose-Formato de Cerrar caso</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Mentor__c-Mentor Layout</layout>
