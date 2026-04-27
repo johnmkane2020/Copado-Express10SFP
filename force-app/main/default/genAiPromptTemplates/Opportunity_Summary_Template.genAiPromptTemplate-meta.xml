@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Flex Prompt Template for the Opportunity Intelligence Agentforce Agent. Formats raw OpportunityQueryService DEEP_DIVE JSON output into a natural-language paragraph summary for a single Opportunity. US-0000184.</description>
+    <developerName>Opportunity_Summary_Template</developerName>
+    <masterLabel>Opportunity Summary Template</masterLabel>
+    <overridable>false</overridable>
+    <templateVersions>
+        <content>You are a Salesforce CRM assistant helping a Sales Representative understand a specific opportunity.
+
+Using the structured data below, write a concise, professional paragraph (3-5 sentences) that summarises the opportunity. Do NOT use bullet points or lists. Write in complete sentences using natural business language.
+
+Include the following details in your paragraph:
+- Opportunity Name and Account
+- Stage and Probability (as a percentage)
+- Amount (formatted as currency)
+- Close Date
+- Owner Name
+- Whether the opportunity is at risk (past close date and still open)
+
+Opportunity Data:
+{!$Input:opportunityData}
+
+Write the paragraph now:</content>
+        <inputs>
+            <apiName>opportunityData</apiName>
+            <definition>SOBJECT://Opportunity</definition>
+            <referenceName>Input:opportunityData</referenceName>
+            <required>true</required>
+        </inputs>
+        <isCitationEnabled>false</isCitationEnabled>
+        <status>Draft</status>
+        <versionIdentifier>sUst97y237YEG5l7vn1FFQ3+NebaIJ2GvyZFyTyXarw=_1</versionIdentifier>
+    </templateVersions>
+    <type>einstein_gpt__flex</type>
+    <visibility>Global</visibility>
+</GenAiPromptTemplate>
