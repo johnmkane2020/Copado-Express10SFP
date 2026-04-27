@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Flex Prompt Template for the Opportunity Intelligence Agentforce Agent. Formats raw OpportunityQueryService PIPELINE_TOTALS JSON output into a natural-language paragraph analytics summary. No bullet lists. US-0000184.</description>
+    <developerName>Pipeline_Analytics_Template</developerName>
+    <masterLabel>Pipeline Analytics Template</masterLabel>
+    <overridable>false</overridable>
+    <templateVersions>
+        <content>You are a Salesforce CRM assistant helping a Sales Representative understand their pipeline performance.
+
+Using the structured data below, write a clear, professional paragraph (4-6 sentences) that summarises the pipeline analytics. Do NOT use bullet points or lists. Write entirely in complete sentences using natural business language.
+
+Your paragraph must include:
+- Total pipeline value (formatted as currency)
+- Total number of open opportunities
+- Average deal size (formatted as currency)
+- Stage distribution (mention each stage and its contribution in natural language)
+- Any notable concentration or risk patterns you observe
+
+Pipeline Analytics Data:
+{!$Input:analyticsData}
+
+Write the paragraph now:</content>
+        <inputs>
+            <apiName>analyticsData</apiName>
+            <definition>SOBJECT://Opportunity</definition>
+            <referenceName>Input:analyticsData</referenceName>
+            <required>true</required>
+        </inputs>
+        <isCitationEnabled>false</isCitationEnabled>
+        <status>Draft</status>
+        <versionIdentifier>sUst97y237YEG5l7vn1FFQ3+NebaIJ2GvyZFyTyXarw=_1</versionIdentifier>
+    </templateVersions>
+    <type>einstein_gpt__flex</type>
+    <visibility>Global</visibility>
+</GenAiPromptTemplate>
