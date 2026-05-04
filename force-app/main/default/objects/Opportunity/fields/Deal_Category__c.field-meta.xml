@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deal_Category__c</fullName>
+    <inlineHelpText>Select the category that best describes this deal&apos;s funding stage.</inlineHelpText>
+    <label>Deal Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pre-Seed</fullName>
+                <default>false</default>
+                <label>Pre-Seed</label>
+            </value>
+            <value>
+                <fullName>Seed</fullName>
+                <default>false</default>
+                <label>Seed</label>
+            </value>
+            <value>
+                <fullName>Follow-On</fullName>
+                <default>false</default>
+                <label>Follow-On</label>
+            </value>
+            <value>
+                <fullName>Syndicated</fullName>
+                <default>false</default>
+                <label>Syndicated</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
