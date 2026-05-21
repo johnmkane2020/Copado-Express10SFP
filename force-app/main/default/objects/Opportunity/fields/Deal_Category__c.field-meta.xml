@@ -31,6 +31,11 @@
                 <default>false</default>
                 <label>Syndicated</label>
             </value>
+            <value>
+                <fullName>Undetermined</fullName>
+                <default>false</default>
+                <label>Undetermined</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>
