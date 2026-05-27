@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSrcDataModelFieldMap xmlns="http://soap.sforce.com/2006/04/metadata">
+    <filterApplied>false</filterApplied>
+    <filterOperationType>Equal</filterOperationType>
+    <masterLabel>DKM201DLOM201Field_2DMOM201Data_2NVsnEontojhiQVc</masterLabel>
+    <sourceField>DLOM201.Field_2__c</sourceField>
+    <targetField>DMOM201__dlm.Data_2__c</targetField>
+    <templateVersion>1</templateVersion>
+    <versionNumber>1.0</versionNumber>
+</DataSrcDataModelFieldMap>

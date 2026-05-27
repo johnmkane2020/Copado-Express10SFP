@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataKitObjectDependency xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataPackageKitDef>DKM201</dataPackageKitDef>
+    <developerName>DLOM201</developerName>
+    <masterLabel>DLOM201__dll</masterLabel>
+    <sourceObject>DLOM201</sourceObject>
+    <sourceObjectType>DataSourceObject</sourceObjectType>
+    <targetObject>DLOM201</targetObject>
+</DataKitObjectDependency>
