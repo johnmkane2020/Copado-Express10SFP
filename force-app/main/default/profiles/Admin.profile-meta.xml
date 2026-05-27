@@ -21,6 +21,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Campaign.Promotion_Eligible__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Case.Child_Sports_Health__c</field>
         <readable>false</readable>
@@ -96,14 +101,14 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Student__c.Expected_Graduation_Year__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>Student__c.City__c</field>
         <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Student__c.Expected_Graduation_Year__c</field>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -132,6 +137,9 @@
     </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Formato de cuentas</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Campaign-Formato de campañas</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Case-Formato de casos</layout>
