@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Campaign_Promotion_Email_Body</fullName>
+        <categories>Campaign</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Campaign Promotion Email Body</shortDescription>
+        <value>This Campaign has been promoted to Active status and requires your review.</value>
+    </labels>
+</CustomLabels>
