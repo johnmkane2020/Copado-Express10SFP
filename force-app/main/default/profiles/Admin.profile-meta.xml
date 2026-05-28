@@ -27,6 +27,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Campaign.Promotion_Eligible__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Case.Federal__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -117,6 +122,9 @@
     </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Formato de cuentas</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Campaign-Formato de campañas</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Case-Formato de casos</layout>
