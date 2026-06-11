@@ -10,6 +10,9 @@ package.xml
 
 # LWC Jest
 **/__tests__/**
+
+node_modules/
+
 # These files are used to pre-create a folder structure
 # If they are part of a metadata folder Salesforce deployments will fail because .gitkeep is not metadata
 **/.gitKeep
